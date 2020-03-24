@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container, .container_border{
+  max-width: 1457px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container_border{
+  border-bottom: 2px solid #EA5656;;
+}
+
+
+@media (max-width: 1500px){
+  .container{
+    max-width: 1050px;
+  }
+}
+
+@media (max-width: 1100px){
+  .container{
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 1000px){
+  .container{
+    max-width: 730px;
+  }
+}
+
+@media (max-width: 770px){
+  .container{
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 660px){
+  .container{
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+

@@ -1,0 +1,158 @@
+.battles-card{
+    position: relative;
+    width: 336px;
+    height: 360px;
+    margin-bottom: 35px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.card_border{
+    border: 1px solid #FF5E5E;
+}
+.battles-card__star{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.battles-card__link_icon{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+.battles-card__link_text{
+    position: absolute;
+    top: 69px;
+    right: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.battles-card__time{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #282830;
+}
+.finished{
+    color: #757C84;
+}
+.battles-card__date{
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #757C84;
+}
+
+.battles-card__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #757C84;
+}
+.battles-teams__logo{
+    width: 30px;
+    height: 30px;
+    padding: 4px 10px;
+    margin-top: 140px;
+    border-radius: 5px;
+    background: #282830;
+}
+.battles-logo{
+    width: 10px;
+    height: 21px;
+}
+
+.battles-teams__info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.battles-group__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+}
+.battles-teams__info_match{
+    width: 105px;
+    height: 40px;
+    padding: 10px 0;
+    background: #F0F0F0;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #757C84;
+}
+
+.battles-match{
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+}
+.battles-match__info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #757C84;
+}
+.battles-match__winner{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+@media (max-width: 660px){
+    .battles-card{
+        width: 374px;
+        height: 225px;
+    }
+    .battles-card__link_icon{
+        top: 16px;
+        right: 25px;
+    }
+    .battles-card__link_text{
+        width: 45px;
+        top: 56px;
+        right: 20px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+    }
+    .battles-teams__logo{
+        margin-top: 20px;
+    }
+    .battles-match__info{
+        font-size: 12px;
+    }
+    .battles-match{
+        margin-top: 7px;
+    }
+}

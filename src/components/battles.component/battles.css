@@ -1,0 +1,13 @@
+.battles_section{
+    padding-top: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+@media (max-width: 660px){
+    .battles_section{
+        padding-top: 30px;
+    }
+}

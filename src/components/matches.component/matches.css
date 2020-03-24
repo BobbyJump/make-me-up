@@ -1,0 +1,13 @@
+.matches_section{
+    padding-top: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+@media (max-width: 660px){
+    .matches_section{
+        padding-top: 30px;
+    }
+}
