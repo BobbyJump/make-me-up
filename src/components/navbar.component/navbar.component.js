@@ -8,7 +8,7 @@ export default class Navbar extends Component {
         super(props);
 
         this.state = {
-            matchesClicked: true,
+            matchesClicked: false,
             battlesActive: false,
         }
     }
