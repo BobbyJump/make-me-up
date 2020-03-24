@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/make-me-up/static/css/main.fee9dd48.chunk.css",
+    "main.js": "/make-me-up/static/js/main.b5d36b60.chunk.js",
+    "main.js.map": "/make-me-up/static/js/main.b5d36b60.chunk.js.map",
+    "runtime-main.js": "/make-me-up/static/js/runtime-main.2148bb48.js",
+    "runtime-main.js.map": "/make-me-up/static/js/runtime-main.2148bb48.js.map",
+    "static/js/2.866af65c.chunk.js": "/make-me-up/static/js/2.866af65c.chunk.js",
+    "static/js/2.866af65c.chunk.js.map": "/make-me-up/static/js/2.866af65c.chunk.js.map",
+    "index.html": "/make-me-up/index.html",
+    "precache-manifest.58edcd2e47ba7c4f589e989b8c41190b.js": "/make-me-up/precache-manifest.58edcd2e47ba7c4f589e989b8c41190b.js",
+    "service-worker.js": "/make-me-up/service-worker.js",
+    "static/css/main.fee9dd48.chunk.css.map": "/make-me-up/static/css/main.fee9dd48.chunk.css.map",
+    "static/js/2.866af65c.chunk.js.LICENSE.txt": "/make-me-up/static/js/2.866af65c.chunk.js.LICENSE.txt",
+    "static/media/navbar.css": "/make-me-up/static/media/background.a8944e85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2148bb48.js",
+    "static/js/2.866af65c.chunk.js",
+    "static/css/main.fee9dd48.chunk.css",
+    "static/js/main.b5d36b60.chunk.js"
+  ]
+}
